@@ -1,0 +1,11 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/OneMusicAPI/client-php.git"
+        }
+    ],
+    "require": {
+        "onemusicapi/client-php": "0.0.1"
+    }
+}
