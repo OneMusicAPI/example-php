@@ -40,7 +40,7 @@ $min_certainty = 0.7; // float |
 try {
     $result = $apiInstance->release($user_key, $inc, $must_inc, $max_result_count, $min_certainty, $min_image_score, $min_image_width, $min_image_height, $max_image_width, $max_image_height, $title, $artist, $barcode);
 } catch (Exception $e) {
-    echo 'Exception when calling DefaultApi->release: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling ReleaseApi->release: ', $e->getMessage(), PHP_EOL;
 }
 ?> 
 
