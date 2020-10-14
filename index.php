@@ -18,17 +18,17 @@
 <?php 
 $loader = require_once('vendor/autoload.php');
 
-$apiInstance = new OpenAPI\Client\Api\DefaultApi(
+$apiInstance = new OneMusicAPI\Client\Api\ReleaseApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
     //$config
 );
-$user_key='<your user key here>';
+$user_key='';
 $title = 'Screamadelica'; // string | 
 $artist = 'Primal Scream'; // string | 
 //$barcode = ''; // string | 
-$inc='images';
+$must_inc='images';
 $max_result_count = 5; // int | 
 $min_certainty = 0.7; // float | 
 //$min_image_score = 0; // int | 

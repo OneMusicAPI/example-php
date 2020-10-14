@@ -6,6 +6,6 @@
         }
     ],
     "require": {
-        "onemusicapi/client-php": "0.0.1"
+        "onemusicapi/client-php": "0.0.2"
     }
 }
